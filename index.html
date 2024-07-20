@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>controle de velocidade</title>
+
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="assets/2104715_cronometer_experiment_research_science_icon (1).png" type="image/x-icon">
+</head>
+
+<body onload="iniciar()">
+    <div class="content">
+        
+
+        <p id="hora"></p>
+<h1>Controle de velocidade</h1>
+        <div>
+            velocidade : <input id="velocidade" type="number">
+Km/h
+        </div>
+        <div>
+        <input type="button" 
+        value="checar" 
+        onclick="checar()"
+        >
+
+        <input type="button" 
+        value="limpar"
+        onclick="limpar()"
+        >
+    </div>
+
+        <p id="velocidadeA">
+            limite de velocidade : 80km/h
+        </p>
+
+        <p id="velocidadeM"></p>
+        
+    </div>
+
+</body>
+
+</html>
